@@ -1,6 +1,6 @@
 body{
-    background-color: yellow;
-    color:pink;
+    background-color: yellowgreen;
+    color:black;
 }
 
 h1{
@@ -9,4 +9,17 @@ h1{
 
 p{
     border: 1px solid red
+}
+h1{font-size: 22px; Font-family:Arial;}
+
+.program{
+    color:aqua;
+    color:red;
+    text-align:center;
+}
+.förväntningar{
+    text-align: right;
+}
+.introduktion{
+    text-align: center;
 }
