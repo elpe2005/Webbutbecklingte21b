@@ -3,3 +3,10 @@
         border: 1px solid black;
         border-collapse: collapse;
     }
+    tr:nth-child(3), tr:nth-child(5){
+       background-color:yellow; }
+    
+    tr:nth-child(even){
+        background-color:red;}
+    tr:nth-child(1){
+    background-color:lightgray;}
