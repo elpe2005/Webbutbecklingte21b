@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 80px auto 50px ;
+    grid-template-areas:
+    "header header"
+    "main1 main2"
+    "footer footer";
+    background-color: yellowgreen;
+    color:black;
+}
+h1{
+    text-align: center;
+}
+header{
+    grid-area: header;
+    background-color:beige ;
+}
+
+.introduktion{
+    border: 1px solid red
+}
+h1{font-size: 22px; Font-family:Arial;}
+
+.program{
+    color:aqua;
+    color:red;
+    text-align:left;
+}
+.förväntningar{
+    text-align: left;
+}
+.introduktion{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    grid-area: main1;
+}
+aside{
+    grid-area: main2;
+}
+footer{
+    grid-area: footer1;
+    background-color: crimson;
+    text-align: left; 
+}
+img{
+    width: 75%;
+}
