@@ -44,9 +44,7 @@ aside{
     grid-area: main2;
 }
 footer{
-    grid-area: footer1;
-    background-color: crimson;
-    text-align: left; 
+    grid-area: footer; 
 }
 img{
     width: 75%;
